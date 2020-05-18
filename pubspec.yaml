@@ -1,0 +1,34 @@
+name: dare2realize
+description: Random ideas generator.
+
+publish_to: 'none'
+
+version: 27.52.02+rc
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/d2r/
+    - assets/dics/
+
+  fonts:
+    - family: Lexend
+      fonts:
+        - asset: assets/fonts/LexendDeca-Regular.ttf
+    - family: Press Start 2P
+      fonts:
+        - asset: assets/fonts/PressStart2P-Regular.ttf
